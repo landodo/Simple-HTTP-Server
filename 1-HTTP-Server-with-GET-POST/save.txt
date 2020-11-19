@@ -1,0 +1,23 @@
+POST / HTTP/1.1
+Host: 127.0.0.1:8888
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: multipart/form-data; boundary=---------------------------4754072371530265419906740661
+Content-Length: 631
+Origin: http://127.0.0.1:8888
+Connection: keep-alive
+Referer: http://127.0.0.1:8888/
+Upgrade-Insecure-Requests: 1
+
+-----------------------------4754072371530265419906740661
+Content-Disposition: form-data; name="file"; filename="demo.txt"
+Content-Type: text/plain
+
+To be, or not to be? That is the question—Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of trouble.
+
+All the world's a stage, and all the men and women merely players: they have their exits and their entrances; and one man in his time plays many parts.
+
+Some are born great, some achieve greatness, and others have greatness thrust upon them.
+-----------------------------4754072371530265419906740661--
